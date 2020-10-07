@@ -1542,10 +1542,11 @@ form.sign-in-form {
     background: none;
   }
   .about-p1 {
+    font-size: 1.75rem;
     top: 3rem;
   }
   .about-p2 {
-    top: 7.5rem;
+    top: 2.5rem;
     margin-right: 10rem;
   }
   .about-head {
@@ -1615,7 +1616,7 @@ form.sign-in-form {
     z-index: -1;
   }
   .about-p2 {
-    top: -17rem;
+    top: -13rem;
     z-index: 2;
   }
   .timeline ul {
@@ -1629,6 +1630,29 @@ form.sign-in-form {
   }
 }
 
+@media (max-width: 400px) {
+  .about-p2 {
+    z-index: 1;
+    top: -15rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .about-p2 {
+    z-index: 1;
+    margin-top: -5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 315px) {
+  .about-p2 {
+    z-index: 1;
+    margin-top: -10rem;
+    font-size: 1.5rem;
+  }
+}
 
 
 
