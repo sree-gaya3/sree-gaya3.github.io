@@ -1043,7 +1043,7 @@ bg color for skills : #131417
 
 .breadcrumbs h2 {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -1063,7 +1063,7 @@ bg color for skills : #131417
 }
 
 .breadcrumbs li a {
-  color: rgb(219, 216, 41);
+  color: rgb(227, 240, 42);
 }
 
 .breadcrumbs ol li + li {
@@ -1073,7 +1073,7 @@ bg color for skills : #131417
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #030303;
+  color: wheat;
   content: "/";
 }
 
@@ -1179,4 +1179,10 @@ bg color for skills : #131417
   top: 30%;
   width: 100%;
   height: 70%;
+}
+
+.back-port {
+  color: #0004ff;
+  background-color: wheat0;
+  font-weight: 500;
 }
