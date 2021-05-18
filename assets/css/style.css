@@ -1,3 +1,7 @@
+/* ------------------------------------------------------------------------------------------------------------------------
+ General Styles 
+------------------------------------------------------------------------------------------------------------------------*/
+
 body {
   background-color: #f5f5f5;
 }
@@ -50,89 +54,41 @@ a:hover {
   vertical-align: middle;
 }
 
-/*--/ Sections /--*/
-
-
 .sect-4 {
   padding: 4rem 0;
 }
 
-.sect-pt4 {
-  padding-top: 4rem;
-}
-
-.sect-mt4 {
-  margin-top: 4rem;
-}
-
-/*--/ Title s /--*/
-.title-s {
-  font-weight: 600;
-  color: #1e1e1e;
-  font-size: 1.1rem;
-}
-
-/*--/ Title A /--*/
-.title-box {
-  margin-bottom: 4rem;
-}
-
-.title-a {
-  font-size: 3rem;
-  font-weight: bold;
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
   text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
 }
 
-.subtitle-a {
-  color: #4e4e4e;
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #4ceb95;
+  margin: 4px 10px;
 }
 
-.line-mf {
-  width: 40px;
-  height: 5px;
-  background-color: #0078ff;
-  margin: 0 auto;
+.section-title p {
+  margin: 0;
+  margin: -15px 0 15px 0;
+  font-size: 36px;
+  font-weight: 700;
+  /*text-transform: uppercase;*/
+  font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 
-/*--/ Title Left /--*/
-.title-box-2 {
-  margin-bottom: 3rem;
-}
-
-.title-left {
-  font-size: 2rem;
-  position: relative;
-}
-
-.title-left:before {
-  content: '';
-  position: absolute;
-  height: 3px;
-  background-color: #0078ff;
-  width: 100px;
-  bottom: -12px;
-}
-
-/*------/ Box /------*/
-.box-pl2 {
-  padding-left: 2rem;
-}
-
-.box-shadow-full {
-  padding: 3rem 1.25rem;
-  position: relative;
-  background-color: #fff;
-  margin-bottom: 3rem;
-  z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-}
-
-@media (min-width: 768px) {
-  .box-shadow-full {
-    padding: 3rem;
-  }
-}
-/*--/ Scrolltop s /--*/
 .scrolltop-mf {
   position: relative;
   display: none;
@@ -229,58 +185,9 @@ a:hover {
   }
 }
 
-/*------/ Button /------*/
-.button {
-  display: inline-block;
-  padding: .3rem .6rem;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-size: 1rem;
-  border-radius: .3rem;
-  border: 1px solid transparent;
-  transition: all 500ms ease;
-  cursor: pointer;
-}
-
-.button:focus {
-  outline: 0;
-}
-
-.button:hover {
-  background-color: #0062d3;
-  color: #fff;
-  transition: all 500ms ease;
-}
-
-.button-a {
-  background-color: #0078ff;
-  color: #fff;
-  border-color: #cde1f8;
-}
-
-.button-big {
-  padding: .9rem 2.3rem;
-  font-size: 1.2rem;
-}
-
-.button-rouded {
-  border-radius: 5rem;
-}
-
-.btn-lg {
-  padding: .5rem 1rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: .3rem;
-}
-
-/*--------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------------
 # Nav Bar
---------------------------------------------------------------*/
+--------------------------------------------------------------------------------------------------------------------------*/
 .navbar-b {
   transition: all .5s ease-in-out;
   background-color: transparent;
@@ -476,9 +383,9 @@ a:hover {
   opacity: 0.9;
 }
 
-/*--------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------------
 # Intro Section
---------------------------------------------------------------*/
+--------------------------------------------------------------------------------------------------------------------------*/
 .intro {
   height: 100vh;
   position: relative;
@@ -574,21 +481,19 @@ a:hover {
 .about-img1 {
   width: 300px;
 }
-.about-img {
-  width: 200px;
-}
+
 
 .social-img {
   width: 30px;
 }
 
-.social-img2 {
-  width: 20px;
+/*--------------------------------------------------------------------------------------------------------------------------
+# About
+--------------------------------------------------------------------------------------------------------------------------*/
+.about-img {
+  width: 200px;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
 .quote-cont {
   background-color: #1e1f26;
   text-align: center;
@@ -602,14 +507,6 @@ a:hover {
   font-weight: normal;
 }
 
-/* Education */
-
-.card {
-  background-color: #1e1f26;
-  border-radius: 3;
-}
-
-/* ABOUT Ay */
 .heading-section .subheading {
   font-size: 13px;
   font-weight: 700;
@@ -618,35 +515,39 @@ a:hover {
   text-transform: uppercase;
   color: black;
   color: #0078ff;
-  letter-spacing: 3px; }
+  letter-spacing: 3px; 
+}
 
 .heading-section h2 {
   font-size: 40px;
-  font-weight: 600; }
-  .heading-section h2 span {
-    font-weight: 400; }
-  @media (max-width: 767.98px) {
-    .heading-section h2 {
-      font-size: 28px; } }
+  font-weight: 600; 
+}
+.heading-section h2 span {
+  font-weight: 400; 
+}
+
+@media (max-width: 767.98px) {
+  .heading-section h2 {
+    font-size: 28px; 
+  } 
+}
 
 .heading-section.heading-section-white .subheading {
-  color: rgba(255, 255, 255, 0.9) !important; }
+  color: rgba(255, 255, 255, 0.9) !important; 
+}
 
 .heading-section.heading-section-white h2 {
-  color: #fff; }
+  color: #fff; 
+}
 
 .heading-section.heading-section-white p {
-  color: rgba(255, 255, 255, 0.9); }
-
-.about-info {
-    margin-top: 0;
-    margin-bottom: 1rem; 
-
+  color: rgba(255, 255, 255, 0.9); 
 }
+
 .ftco-about p {
   font-size: 1.1rem;
 }
-
+  
 .ftco-about ul.about-info {
   display: inline-block;
   padding: 0;
@@ -664,32 +565,19 @@ a:hover {
   color: #ffffff;
   width: 130px; 
 }
-  
-.portdet ul.about-info li {
-  list-style: none;
-  margin-bottom: 10px; 
-}
-.portdet ul.about-info li span {
-  width: calc(100% - 130px);
-  font-weight: 600;
-  color: #0075F6; 
-}
-.portdet ul.about-info li span:first-child {
-  font-weight: 600;
-  color: #ffffff;
-  width: 130px; 
-}
-.portdet ul.about-info li a {
-  color: #0075F6;
-}
-.portdet ul.about-info li a:hover {
-  color: wheat;
+
+/*---------------------------------------------------------------------------------------------------- 
+ Education 
+ ----------------------------------------------------------------------------------------------------*/
+
+.card {
+  background-color: #1e1f26;
+  border-radius: 3;
 }
 
-
-/*--------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------------
 # skills
---------------------------------------------------------------*/
+--------------------------------------------------------------------------------------------------------------------------*/
 
 .skill-mf span {
   color: #4e4e4e;
@@ -729,51 +617,31 @@ a:hover {
   transition: all .3s ease;
 }
 
-/* Achievements */
+/*-------------------------------------------------------------------------------------------------------------------------
+  Achievements
+  -------------------------------------------------------------------------------------------------------------------------*/
 .card-body h6 {
   font-size: 1.1rem;
-} 
-.card-body p 
+}
 
-/*--------------------------------------------------------------
+.img-icon2 {
+  height: 8rem;
+  width: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------
 bg color for skills : #131417
 # Contact
---------------------------------------------------------------*/
+--------------------------------------------------------------------------------------------------------------------------*/
 .contact-cont {
   padding: 30px;
   background-color: #0f0f0f;
 }
 
-.section-title h2 {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 0;
-  line-height: 1px;
-  margin: 0 0 20px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
-}
 
-.section-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #4ceb95;
-  margin: 4px 10px;
-}
-
-.section-title p {
-  margin: 0;
-  margin: -15px 0 15px 0;
-  font-size: 36px;
-  font-weight: 700;
-  /*text-transform: uppercase;*/
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-}
 .contact .info-box {
   color: #444444;
   padding: 20px;
@@ -936,9 +804,10 @@ bg color for skills : #131417
   }
 }
 
-/*--------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------------
 # Portfolio
---------------------------------------------------------------*/
+--------------------------------------------------------------------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1027,9 +896,9 @@ bg color for skills : #131417
   font-size: 1.2rem;
 }
 
-/*--------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------------
 # Breadcrumbs
---------------------------------------------------------------*/
+--------------------------------------------------------------------------------------------------------------------------*/
 .breadcrumbs {
   padding: 120px 0 0 0;
   min-height: 40px;
@@ -1089,9 +958,30 @@ bg color for skills : #131417
   }
 }
 
-/*--------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------------
 # Portfolio Details
---------------------------------------------------------------*/
+--------------------------------------------------------------------------------------------------------------------------*/
+.portdet ul.about-info li {
+  list-style: none;
+  margin-bottom: 10px; 
+}
+.portdet ul.about-info li span {
+  width: calc(100% - 130px);
+  font-weight: 600;
+  color: #0075F6; 
+}
+.portdet ul.about-info li span:first-child {
+  font-weight: 600;
+  color: #ffffff;
+  width: 130px; 
+}
+.portdet ul.about-info li a {
+  color: #0075F6;
+}
+.portdet ul.about-info li a:hover {
+  color: wheat;
+}
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1154,17 +1044,15 @@ bg color for skills : #131417
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Experience
---------------------------------------------------------------*/
-.img-icon2 {
-  height: 8rem;
-  width: 8rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+.back-port {
+  color: #0004ff;
+  background-color: wheat0;
+  font-weight: 500;
 }
 
+/* -----------------------------------------------------------------------------------------------------------------------
+  Progress bar in skills
+---------------------------------------------------------------------------------------------------------------------------*/
 .progress {
   position: absolute;
   top: 0;
@@ -1179,10 +1067,4 @@ bg color for skills : #131417
   top: 30%;
   width: 100%;
   height: 70%;
-}
-
-.back-port {
-  color: #0004ff;
-  background-color: wheat0;
-  font-weight: 500;
 }
