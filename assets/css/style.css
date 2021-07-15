@@ -629,6 +629,14 @@ a:hover {
   display: block;
 }
 
+.img-icon3 {
+  height: 8rem;
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------------
 bg color for skills : #131417
 # Contact
